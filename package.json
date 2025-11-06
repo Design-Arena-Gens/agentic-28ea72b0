@@ -1,0 +1,26 @@
+{
+  "name": "agentic-28ea72b0",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed"
+  },
+  "dependencies": {
+    "next": "14.2.14",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2",
+    "@types/react": "19.2.2",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.14",
+    "typescript": "5.6.3",
+    "vercel": "33.6.1"
+  }
+}
